@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Allure Annotation Tests"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.253">
+  <properties />
+  
+  
+            <testcase name="testSuccessfulLogin" time="17.253" classname="tests.AllureAnotasyonTest" />
+      
+</testsuite>

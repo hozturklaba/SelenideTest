@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Test Raporlama Suite">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    
+    <test name="Logger Tests">
+        <classes>
+            <class name="tests.LoggerTests"/>
+        </classes>
+    </test>
+    
+    <test name="Allure Annotation Tests">
+        <classes>
+            <class name="tests.AllureAnotasyonTest"/>
+        </classes>
+    </test>
+</suite>
+

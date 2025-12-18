@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-04T19:49:03 GMT+03:00" name="Test Raporlama Suite" finished-at="2025-12-04T19:49:20 GMT+03:00" duration-ms="17513">
+    <groups>
+    </groups>
+    <test started-at="2025-12-04T19:49:03 GMT+03:00" name="Logger Tests" finished-at="2025-12-04T19:49:03 GMT+03:00" duration-ms="224">
+      <class name="tests.LoggerTests">
+        <test-method signature="testLoginWithLogging()[pri:0, instance:tests.LoggerTests@232cce0]" started-at="2025-12-04T19:49:03 GMT+03:00" name="testLoginWithLogging" finished-at="2025-12-04T19:49:03 GMT+03:00" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithLogging -->
+      </class> <!-- tests.LoggerTests -->
+    </test> <!-- Logger Tests -->
+    <test started-at="2025-12-04T19:49:03 GMT+03:00" name="Allure Annotation Tests" finished-at="2025-12-04T19:49:20 GMT+03:00" duration-ms="17262">
+      <class name="tests.AllureAnotasyonTest">
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:tests.AllureAnotasyonTest@2330e3e0]" started-at="2025-12-04T19:49:03 GMT+03:00" name="testSuccessfulLogin" finished-at="2025-12-04T19:49:20 GMT+03:00" duration-ms="17253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+      </class> <!-- tests.AllureAnotasyonTest -->
+    </test> <!-- Allure Annotation Tests -->
+  </suite> <!-- Test Raporlama Suite -->
+</testng-results>

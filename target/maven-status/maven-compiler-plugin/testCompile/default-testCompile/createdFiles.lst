@@ -1,0 +1,11 @@
+tests/AllureAnotasyonTest.class
+runners/CukesRunner.class
+org/example/SelenideTest.class
+step_definitions/HesaplamaSteps.class
+pages/BabaPage.class
+step_definitions/kullaniciSteps.class
+org/example/SafSeleniumTest.class
+utilities/MyLogger.class
+tests/LoginTests.class
+pages/LoginPage.class
+tests/LoggerTests.class

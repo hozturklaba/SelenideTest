@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","223","testLoginWithLogging","Test Raporlama Suite","2025-12-04","passed","2025-12-04","tests.LoggerTests","Logger Tests","tests.LoggerTests","testLoginWithLogging"
+"Kullanıcının geçerli kimlik bilgileriyle başarılı giriş yapmasını test eder.","24303","testSuccessfulLogin","Test Raporlama Suite","2025-12-04","failed","2025-12-04","tests.AllureAnotasyonTest","Allure Annotation Tests","tests.AllureAnotasyonTest","testSuccessfulLogin"
