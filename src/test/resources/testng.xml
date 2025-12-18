@@ -8,9 +8,9 @@
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     </listeners>
     
-    <test name="Logger Tests">
+    <test name="Login Tests">
         <classes>
-            <class name="tests.LoggerTests"/>
+            <class name="tests.LoginTests"/>
         </classes>
     </test>
     
