@@ -1,28 +1,32 @@
-pipeline{
+pipeline {
     agent any
 
-    tools{
-    maven 'mvn'
-    jdk 'jdk'
+    tools {
+        maven 'mvn'
+        jdk 'jdk'
     }
 
-    stages{
-        stage('Cloning Git'){
-            steps{
-            git branch: 'main', url: 'https://github.com/hozturklaba/SelenideTest.git'
+    stages {
+        stage('Cloning Git') {
+            steps {
+                // Kendi repo adresiniz doğru görünüyor, buraya ekledim:
+                git branch: 'main', url: 'https://github.com/hozturklaba/SelenideTest.git'
             }
         }
-        stage('Run Test'){
-            steps{
-            sh 'mvn clean install -DskipTests'
-            sh 'mvn test'
+
+        stage('Run Test') {
+            steps {
+                // Testleri çalıştır (Hata alsa bile devam etmesi için try-catch eklenebilir ama şimdilik standart kalsın)
+                sh 'mvn clean install -DskipTests'
+                sh 'mvn test'
             }
         }
     }
 
-    post{
-        always{
-        allure includeProperties:false, jdk: 'jdk', results: [[path: 'target/allure-results']
+    post {
+        always {
+            // Allure raporunu oluştur
+            allure includeProperties: false, jdk: 'jdk', results: [[path: 'target/allure-results']]
         }
     }
 }
